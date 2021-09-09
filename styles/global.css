@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Gabriela&display=swap");
+
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.nav-height {
+  height: 95vh;
+}
+
+.bg-purple-500 {
+  background: #614AD3;
+}
+
+.text-purple-500 {
+  color: #614AD3;
+}
+
+.rounded-login-cart {
+  border-radius: 40px;
+}
+
+.background {
+  background: linear-gradient(135deg, #90f7ec 0%, #32ccbc 100%);
+}
+
+.pass-through {
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3));
+}
+
+.right-ellipse {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  z-index: 0;
+  top: -40px;
+  right: -40px;
+  z-index: -1;
+  background-color: aquamarine;
+  border-radius: 50%;
+}
+
+.below {
+  z-index: -5;
+}
+
+.top {
+  z-index: 5;
+}
